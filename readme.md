@@ -10,7 +10,8 @@
 
 ### 프로젝트 세부 정리
 
-- [Snake Game 구현기](https://sunghyun627.tistory.com/entry/JS-SnakeGame-%EA%B5%AC%ED%98%84%EA%B8%B0)
+- [Snake Game 구현기](https://github.com/The-Memory-Of-Developer/dev-study/blob/main/projects/snakegame/snakegame%20%EA%B5%AC%ED%98%84%EA%B8%B0.md)
+- [Notion 정리](https://sunghyun627.tistory.com/entry/JS-SnakeGame-%EA%B5%AC%ED%98%84%EA%B8%B0)
 
 ### 기술 스택
 
