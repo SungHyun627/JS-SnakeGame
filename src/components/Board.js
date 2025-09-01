@@ -14,7 +14,7 @@ import {
   removePreSnakeAndAppleCells,
   initSnakeAndAppleRender,
 } from '../utils/render.js';
-import { debounce } from '../utils/debounce.js';
+import { throttle } from '../utils/fnUtils.js';
 import { copySnakeQueue } from '../utils/copySnakeQueue.js';
 import { getNextSnakeHeadPos } from '../utils/getPositions.js';
 import { $emptyBoardTemplate } from '../templates/templates.js';
@@ -75,7 +75,7 @@ export default class Board {
   initEvent() {
     window.addEventListener(
       'keyup',
-      debounce((e) => this.getDirection(e), INTERVAL_TIME)
+      throttle((e) => this.getDirection(e), INTERVAL_TIME)
     );
   }
 
