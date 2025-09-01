@@ -43,7 +43,7 @@
     - `copySnakeQueue.js` : SnakeQueue를 순회하여 새로운 SnakeQueue를 만드는 함수
     - `createApplePosition.js` : 사과의 위치를 랜덤으로 생성하는 함수
     - `createElements.js` : element(cell, apple)를 생성하는 함수
-    - `debounce.js` : 연속된 방향키 입력을 하나의 입력으로 그룹화하기 위한 debounce 함수
+    - `fnUtils.js` : 연속된 방향키 입력을 하나의 입력으로 그룹화하기 위한 debounce, throttle 함수
     - `elementSelector.js` : 특정 element를 selector하는 함수
     - `getPositions.js` : cell의 좌표, 뱀의 head가 위치할 다음 셀의 좌표를 반환하는 함수
     - `getScore.js` : 점수를 계산하는 함수
